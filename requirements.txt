@@ -1,6 +1,0 @@
-Django==2.0.3
-django-extensions==2.0.6
-requests==2.18.4
-django-redis==4.9.0
-phonenumbers==8.9.3
-plivo==4.1.0
