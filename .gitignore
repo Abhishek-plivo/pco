@@ -121,3 +121,7 @@ node_modules/
 .DS_Store
 
 dump.rdb
+node_modules/
+dev.db
+site_media/
+static/dist/
