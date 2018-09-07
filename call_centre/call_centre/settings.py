@@ -139,6 +139,7 @@ INSTALLED_APPS = [
 
     # project
     "call_centre",
+    "usecases",
 ]
 
 ADMIN_URL = "admin:index"
