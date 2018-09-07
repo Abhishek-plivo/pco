@@ -21,7 +21,7 @@
     <div class="navbar {% block navbar_class %}navbar-expand-lg navbar-light bg-light{% endblock %}">
         <div class="container">
         {% block topbar %}
-            {% block site_brand %}<a class="navbar-brand" href="{% url "home" %}">{{ SITE_NAME }}</a>{% endblock %}
+            {% block site_brand %}<a class="navbar-brand" href="{% url "home" %}">{{ APP_TITLE }}</a>{% endblock %}
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="fa fa-bars"></span>
             </button>
@@ -49,11 +49,11 @@
 {% endblock %}
 
 
-{% block scripts %}
-    <script src="{% static "js/site.js" %}"></script>
-{% endblock %}
-
 {% block extra_body_base %}
     {% analytics %}
     {% block extra_body %}{% endblock %}
+{% endblock %}
+
+{% block scripts %}
+    <script src="{% static "js/site.js" %}"></script>
 {% endblock %}

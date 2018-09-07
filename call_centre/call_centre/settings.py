@@ -190,3 +190,6 @@ ACCOUNT_USE_AUTH_AUTHENTICATE = True
 AUTHENTICATION_BACKENDS = [
     "account.auth_backends.UsernameAuthenticationBackend",
 ]
+
+
+APP_TITLE = 'PCO'
